@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import Masonry from 'masonry-layout';
 import imagesLoaded from 'imagesloaded';
+import styled, { keyframes, ThemeProvider, withTheme } from 'styled-components';
 
 import logo from './img/Dataformer.svg';
 import search from './img/Search.svg';
@@ -45,11 +46,15 @@ const navLists = [
   '地图类',
 ];
 
+const Input = styled.input`
+  padding: 0.5em;
+  margin: 0.5em;
+  color: palevioletred;
+  background: papayawhip;
+  border: none;
+  border-radius: 3px;
+` ;
 
-// import components
-import {
-  Button,
-} from './components/';
 
 class App extends Component {
 
@@ -59,7 +64,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        
+        <Input
+          placeholder="Hover here..."
+          innerRef={x => { this.input = x }}
+          onMouseEnter={() => this.input.focus() }
+        />
       </div>
     );
   }
