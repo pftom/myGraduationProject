@@ -1,0 +1,16 @@
+
+
+
+.App {
+  width: 100%;
+}
+
+.App-header {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}

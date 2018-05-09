@@ -1,0 +1,83 @@
+.App {
+  width: 100%;
+}
+.App-header {
+  width: 1040px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.headerItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.headerItem .btn {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 0 18px;
+  height: 32px;
+  line-height: 32px;
+  font-family: PingFangSC-Regular;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.headerItem .logo {
+  width: 170px;
+}
+.headerItem .search {
+  width: 18px;
+  margin-right: 20px;
+}
+.headerItem .avatar {
+  width: 32px;
+}
+.navbar {
+  width: 1040px;
+  margin: 32px auto;
+}
+.navbar .navItem {
+  /* 区间类: */
+  font-family: PingFangSC-Regular;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-left: 62px;
+}
+.container {
+  width: 1040px;
+  margin: 20px auto;
+  padding: 0;
+  zoom: 1;
+  display: table;
+}
+.container .column-2 {
+  width: 50%;
+  margin: 0;
+  float: left;
+}
+.container .unit {
+  width: 95%;
+  margin: 50px auto;
+  text-align: center;
+  line-height: 200px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% 100%;
+}
+.container h2 {
+  text-align: center;
+  margin-top: 20px;
+}
